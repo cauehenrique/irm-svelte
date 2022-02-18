@@ -20,7 +20,7 @@
 
 	let chatHistoryElement: HTMLElement;
 
-	const socket = io("http://localhost:1337", { transports: ["websocket"] });
+	const socket = io("https://mighty-journey-23361.herokuapp.com/", { transports: ["websocket"] });
 
 	socket.on("new-message", (newMessage) => {
 		messages = [...messages, newMessage];
