@@ -51,8 +51,8 @@
 </script>
 
 <svelte:head>
-	<title>IRM Svelte Chat</title>
-	<meta name="description" content="An IRM-inspired chat app made with Svelte and SocketIO" />
+	<title>Svelte IRC</title>
+	<meta name="description" content="An IRC-inspired app made with Svelte and SocketIO" />
 </svelte:head>
 
 <div class="h-screen flex justify-center items-center font-mono">
